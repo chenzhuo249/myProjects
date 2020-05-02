@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>测试键盘事件</title>
+    <script src="js/jquery.min.js"></script>
+</head>
+<body>
+<!--    <input type="text" onkeydown="return noNumbers(event)">-->
+<!--    <input type="text">-->
+    <script type="text/javascript">
+        // var input = document.getElementsByTagName("input")[0];
+
+
+        document.onkeydown = noNumbers;
+        // document.onkeyup = noNumbers;
+        // document.onkeypress = noNumbers;
+
+        function noNumbers(e) {
+            switch (e.which) {
+                case 37:
+                    console.log("37 左");
+                    break;
+                case 38:
+                    console.log("38 上");
+                    break;
+                case 39:
+                    console.log("39 右");
+                    break;
+                case 40:
+                    console.log("40 下");
+                    break;
+            }
+        }
+
+    </script>
+
+
+
+</body>
+</html>

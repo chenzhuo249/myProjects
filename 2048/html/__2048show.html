@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>测试2048页面布局</title>
+    <script src="js/jquery.min.js"></script>
+    <style>
+        body,div{
+            margin: 0;
+            padding: 0;
+        }
+        body{
+            background-color: #FAF8EF;
+        }
+        .bg{
+            width: 450px;
+            height: 450px;
+            background-color: #BBADA0;
+            margin: auto;
+            margin-top: 10%;
+            border-radius: 6px;
+            font-size: 0;
+        }
+        .bg div{
+            width: 100px;
+            height: 100px;
+            background-color: rgba(238,228,218,.35);
+            display: inline-block;
+            margin-left: 10px;
+            margin-top: 10px;
+            border-radius: 6px;
+        }
+        .bg nav{
+            text-align: center;
+            line-height: 100px;
+            float: left;
+            width: 100px;
+            height: 100px;
+            border-radius: 6px;
+            font-family: clear sans,helvetica neue,Arial,sans-serif;
+        }
+        .nav2{
+            color: #776165;
+            background-color: #EEE4DA;
+            font-size: 53px;
+            font-weight: bold;
+
+        }
+        .nav4{
+            color: #776165;
+            background-color: rgb(237,224,200);
+            font-size: 53px;
+            font-weight: bold;
+        }
+        .nav8{
+            color: #f9f6f2;
+            background: #f2b179;
+            font-size: 53px;
+            font-weight: bold;
+        }
+        .nav16{
+            color: #f9f6f2;
+            background: #f59563;
+            font-size: 53px;
+            font-weight: bold;
+        }
+        .nav32{
+            color: #f9f6f2;
+            background: #f67c5f;
+            font-size: 53px;
+            font-weight: bold;
+        }
+        .nav64{
+            color: #f9f6f2;
+            background: #f65e3b;
+            font-size: 53px;
+            font-weight: bold;
+        }
+        .nav128{
+            color: #f9f6f2;
+            background: #edcf72;
+            font-size: 45px;
+            font-weight: bold;
+        }
+        .nav256{
+            color: #f9f6f2;
+            background: #edcc61;
+            /*box-shadow: 0 0 30px 10px rgba(243,215,116,.31746), inset 0 0 0 1px rgba(255,255,255,.19048);*/
+            font-size: 45px;
+            font-weight: bold;
+        }
+        .nav512{
+            color: #f9f6f2;
+            background: #ECC850;
+            /*box-shadow: 0 0 30px 10px rgba(243,215,116,.31746), inset 0 0 0 1px rgba(255,255,255,.19048);*/
+            font-size: 45px;
+            font-weight: bold;
+        }
+        .nav1024{
+            color: #f9f6f2;
+            background: #EDC53F;
+            /*box-shadow: 0 0 30px 10px rgba(243,215,116,.31746), inset 0 0 0 1px rgba(255,255,255,.19048);*/
+            font-size: 38px;
+            font-weight: bold;
+        }
+        .nav2048{
+            color: #f9f6f2;
+            background: #EDC22E;
+            box-shadow: 0 0 30px 10px rgba(243,215,116,.31746), inset 0 0 0 1px rgba(255,255,255,.19048);
+            font-size: 38px;
+            font-weight: bold;
+        }
+        .nav4096{
+            color: #f9f6f2;
+            background: #EEC400;
+            font-size: 38px;
+            font-weight: bold;
+        }
+    </style>
+</head>
+<body>
+    <div class="bg">
+        <div id="box00">
+            <nav class="nav2">2</nav>
+        </div>
+        <div id="box01">
+            <nav class="nav4">4</nav>
+        </div>
+        <div id="box02">
+            <nav class="nav8">8</nav>
+        </div>
+        <div id="box03">
+            <nav class="nav16">16</nav>
+        </div>
+
+        <div id="box10">
+            <nav class="nav32">32</nav>
+        </div>
+        <div id="box11">
+            <nav class="nav64">64</nav>
+        </div>
+        <div id="box12">
+            <nav class="nav128">128</nav>
+        </div>
+        <div id="box13">
+            <nav class="nav256">256</nav>
+        </div>
+
+
+        <div id="box20">
+            <nav class="nav512">512</nav>
+        </div>
+        <div id="box21">
+            <nav class="nav1024">1024</nav>
+        </div>
+        <div id="box22">
+            <nav class="nav2048">2048</nav>
+        </div>
+        <div id="box23">
+            <nav class="nav4096">4096</nav>
+        </div>
+
+
+        <div id="box30"></div>
+        <div id="box31"></div>
+        <div id="box32"></div>
+        <div id="box33"></div>
+
+    </div>
+
+</body>
+</html>

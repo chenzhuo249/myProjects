@@ -1,0 +1,82 @@
+/*　页面数字样式　*/
+.nav2{
+    color: #776165;
+    background-color: #EEE4DA;
+    font-size: 53px;
+    font-weight: bold;
+}
+.nav4{
+    color: #776165;
+    background-color: rgb(237,224,200);
+    font-size: 53px;
+    font-weight: bold;
+}
+.nav8{
+    color: #f9f6f2;
+    background: #f2b179;
+    font-size: 53px;
+    font-weight: bold;
+}
+.nav16{
+    color: #f9f6f2;
+    background: #f59563;
+    font-size: 53px;
+    font-weight: bold;
+}
+.nav32{
+    color: #f9f6f2;
+    background: #f67c5f;
+    font-size: 53px;
+    font-weight: bold;
+}
+.nav64{
+    color: #f9f6f2;
+    background: #f65e3b;
+    font-size: 53px;
+    font-weight: bold;
+}
+.nav128{
+    color: #f9f6f2;
+    background: #edcf72;
+    font-size: 45px;
+    font-weight: bold;
+}
+.nav256{
+    color: #f9f6f2;
+    background: #edcc61;
+    /*box-shadow: 0 0 30px 10px rgba(243,215,116,.31746), inset 0 0 0 1px rgba(255,255,255,.19048);*/
+    font-size: 45px;
+    font-weight: bold;
+}
+.nav512{
+    color: #f9f6f2;
+    background: #ECC850;
+    /*box-shadow: 0 0 30px 10px rgba(243,215,116,.31746), inset 0 0 0 1px rgba(255,255,255,.19048);*/
+    font-size: 45px;
+    font-weight: bold;
+}
+.nav1024{
+    color: #f9f6f2;
+    background: #EDC53F;
+    /*box-shadow: 0 0 30px 10px rgba(243,215,116,.31746), inset 0 0 0 1px rgba(255,255,255,.19048);*/
+    font-size: 38px;
+    font-weight: bold;
+}
+.nav2048{
+    color: #f9f6f2;
+    background: #EDC22E;
+    box-shadow: 0 0 30px 10px rgba(243,215,116,.31746), inset 0 0 0 1px rgba(255,255,255,.19048);
+    font-size: 38px;
+    font-weight: bold;
+}
+.nav4096{
+    color: #f9f6f2;
+    background: #EEC400;
+    font-size: 38px;
+    font-weight: bold;
+}
+.navBIG{
+    color: #776165;
+    background: #EEC400;
+    font-size: 30px;
+}
